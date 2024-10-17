@@ -11,11 +11,4 @@ dbConnection()
     console.log(error)
 })
 
-app.use('/',(req,res,error)=>{
-    res.json({name:"aman",
-        age:20
-    })
-})
-
-
 
